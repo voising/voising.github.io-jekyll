@@ -9,6 +9,6 @@ client: Chris
 url: www.chris-magicien.fr
 budget: 1200€ excl. tax (editable content) / 700€ excl. tax (static content)
 category: One page
-description: 'Wordpress'
+description: 'Wordpress one page website'
 
 ---
