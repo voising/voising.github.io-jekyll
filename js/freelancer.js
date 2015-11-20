@@ -13,6 +13,9 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+
+    // Initialize WOW.js Scrolling Animations
+    new WOW().init();
 });
 
 // Floating label headings for the contact form
