@@ -54,7 +54,7 @@ address:
   - line: Europe
 
 # Credits content
-credits: '<a href="sms:+33663839493"><i class="fa fa-phone"></i>+33663839493</a><br><a href="mailto:guillaume.voisin29@gmail.com?subject=[Freelance] More infos"><i class="fa fa-envelope-o"></i>guillaume.voisin29@gmail.com</a>'
+credits: '<a href="mailto:guillaume.voisin29@gmail.com?subject=[Freelance] More infos"><i class="fa fa-envelope-o"></i>guillaume.voisin29@gmail.com</a>'
 
 # Build settings
 markdown: kramdown

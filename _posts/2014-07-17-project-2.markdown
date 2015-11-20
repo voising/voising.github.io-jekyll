@@ -7,7 +7,7 @@ alt: Vertcorps
 project-date: October 2015
 client: Vertcorps
 url: www.vertcorps.boutique
-budget: 2000€ excl. tax
+budget: 3000€ excl. tax
 category: E-commerce
 description: E-commerce using Woo Commerce on Wordpress
 
