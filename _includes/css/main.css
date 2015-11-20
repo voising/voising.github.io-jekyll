@@ -24,6 +24,23 @@ a.active {
     outline: 0;
     color: #{{ site.color.primary }};
 }
+nav a {
+    color: #FFF;
+}
+nav a:hover,
+nav a:hover i,
+nav a:focus,
+nav a:active,
+nav a.active i,
+nav a.active {
+    /*
+    color: #ecf0f1 !important;
+    border-color: #ecf0f1 !important;
+    */
+    color: #FFF !important;
+    border-color: #FFF !important;
+    text-shadow: 1px 1px 3px #080C0B;
+}
 
 h1,
 h2,
@@ -178,8 +195,22 @@ a.navbar-brand {
     text-transform: uppercase;
     width: 400px;
 }
+/*
+nav:not(.navbar-shrink) a:hover {
+    color: #FFF !important;
+}
+nav:not(.navbar-shrink) a:hover i {
+    color: #FFF !important;
+    border-color: #FFF !important;
+}
+*/
 a.navbar-brand:hover i {
     border: 1px solid #{{ site.color.primary }};
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+a.navbar-brand i:after {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
