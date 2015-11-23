@@ -20,13 +20,12 @@
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a target="_blank" href="http://{{ post.url }}">{{ post.client }}</a>
-                                    </strong>
+                                    <strong>{{ post.client }}</strong>
                                 </li>
-                                <li>Date:
+                                <!--<li>Date:
                                     <strong>{{ post.project-date }}</strong>
-                                </li>
-                                <li>Service:
+                                </li>-->
+                                <li>Mission:
                                     <strong>{{ post.category }}</strong>
                                 </li>
                                 {% if post.budget %}

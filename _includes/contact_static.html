@@ -11,13 +11,23 @@
 			<div class="col-lg-8 col-lg-offset-2">
 				<form  action="//formspree.io/guillaume.voisin29@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
                     <div class="row control-group">
-                        <select class="cs-select cs-skin-underline">
+                        <select class="cs-select cs-skin-underline" name="type">
                             <option value="" disabled selected>Your need ...</option>
                             <option value="mvp">Minimum Viable Product</option>
                             <option value="eshop">E-commerce</option>
                             <option value="onepage">One page design</option>
-                            <option value="ga">Google Analytics</option>
+                            <option value="ror">RoR / JS developments</option>
                             <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="row control-group">
+                        <select class="cs-select cs-skin-underline" name="budget">
+                            <option value="" disabled selected>Your budget ...</option>
+                            <option value="<1000">Less than 1000€</option>
+                            <option value="1000-2500">Between 1000€ and 2500€</option>
+                            <option value="2500-5000">Between 2500€ and 5000€</option>
+                            <option value="5000-20000">Between 5000€ and 20000€</option>
+                            <option value=">20000">More than 20000€</option>
                         </select>
                     </div>
 					<div class="row control-group">
@@ -35,7 +45,7 @@
 						</div>
 					</div>
 					<div>
-						<input type="hidden"  name="_subject" value="[Freelance] New query">
+						<input type="hidden"  name="_subject" value="[Freelance] New mission">
 						<input type="text" name="_gotcha" style="display:none" />
 					</div>
 					<div class="row control-group">
