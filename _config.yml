@@ -1,8 +1,9 @@
 # Site settings
 title: Guillaume Voisin
+html_title: Freelancer - Guillaume Voisin - Full Stack Web Developer
 email: guillaume.voisin29@gmail.com
 url: https://voising.github.io
-description: "Guillaume Voisin - Ruby on Rails Engineer freelancer. Minimum Viable Product - E-commerce - Corporate website"
+description: "Guillaume Voisin portfolio. I make Minimum Viable Product (MVP) - E-commerce / E-shop - Corporate website - One page design."
 skills: "Ruby on Rails Full Stack Engineer"
 meta_author: Voisin Guillaume
 
