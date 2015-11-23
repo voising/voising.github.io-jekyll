@@ -26,6 +26,8 @@ $(function() {
         $(this).addClass("floating-label-form-group-with-focus");
     }).on("blur", ".floating-label-form-group", function() {
         $(this).removeClass("floating-label-form-group-with-focus");
+    }).on("click", ".cs-options li", function(){
+        $(this).closest(".cs-select").addClass("done");
     });
 });
 

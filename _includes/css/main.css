@@ -647,7 +647,6 @@ footer .footer-below {
 }
 
 .footer-infos p {
-    text-align: left;
 }
 .footer-infos a {
     color: #FFF;
@@ -994,6 +993,9 @@ div.cs-skin-underline {
     font-weight: 200 !important;
     border-bottom: 1px solid #eee !important;
     padding: 25px 15px !important;
+}
+.done .cs-placeholder {
+    color: rgb(44, 62, 80);
 }
 .cs-skin-underline .cs-options {
     font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
