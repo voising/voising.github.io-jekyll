@@ -231,6 +231,10 @@ a.navbar-brand {
     }
     a.navbar-brand {
         width: 370px;
+        padding-right: 0;
+    }
+    .fr a.navbar-brand {
+        width: 340px;
     }
 }
 

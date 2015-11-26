@@ -62,3 +62,6 @@ credits: '<a href="mailto:guillaume.voisin29@gmail.com?subject=[Freelance] More 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+languages: ["en", "fr"]
+exclude_from_localizations: ["javascript", "img", "js", "css"]

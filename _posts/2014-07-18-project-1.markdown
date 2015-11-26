@@ -4,10 +4,33 @@ modal-id: 1
 date: 2015-05-12
 img: wizville.jpg
 alt: WizVille
+permalink: /wizville/
 project-date: Mai 2015
 client: WizVille
-url: www.wizville.fr
+client_url: www.wizville.fr
 category: Ruby on Rails
-description: 'Agile development methodologies - Regular front-end & back-end developments on this technology stack : Rails 3.2, Ruby 2, jQuery, Slim, LESS, Unicorn, NGINX, Resque, Ubuntu Server, Monit'
-
+description:
+  fr: 'Méthodologies Agile - Développements réguliers front et back'
+  en: 'Agile development methodologies - Regular front-end & back-end developments'
+technos:
+  - name: Rails 3.2
+    categ: back
+  - name: Ruby 2
+    categ: back
+  - name: jQuery
+    categ: front
+  - name: Slim
+    categ: front
+  - name: LESS
+    categ: front
+  - name: Unicorn
+    categ: sys
+  - name: NGINX
+    categ: sys
+  - name: Resque
+    categ: sys
+  - name: Ubuntu Server
+    categ: sys
+  - name: Monit
+    categ: sys
 ---

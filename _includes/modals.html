@@ -14,10 +14,15 @@
                         <div class="modal-body">
                             <h2>{{ post.client }}</h2>
                             <hr class="star-primary ruby-light ruby-light-black-on-white">
-                            <a target="_blank" href="http://{{ post.url }}">
-                                <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <a target="_blank" href="http://{{ post.client_url }}">
+                                <img src="/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             </a>
-                            <p>{{ post.description }}</p>
+                            <p>{{ post.description[site.lang] }}</p>
+                            <p class="badges">
+                                {% for techno in post.techno %}
+                                <span class="badge {{ techno.categ }}">{{ techno.name }}</span>
+                                {% endfor %}
+                            </p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong>{{ post.client }}</strong>
@@ -34,7 +39,7 @@
                                 </li>
                                 {% endif %}
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> {% t posts.close %}</button>
                         </div>
                     </div>
                 </div>

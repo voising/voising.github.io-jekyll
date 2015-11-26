@@ -4,11 +4,17 @@ modal-id: 3
 date: 2014-07-16
 img: chrismagicien.jpg
 alt: Chris magicien de la belle époque
+permalink: /chris-magicien/
 project-date: Mai 2013
 client: Chris
-url: www.chris-magicien.fr
+client_url: www.chris-magicien.fr
 budget: 1200€ excl. tax (editable content) / 700€ excl. tax (static content)
 category: One page
-description: 'Wordpress one page website'
+description:
+  en: 'One page design website for a great magician'
+  fr: "Site web d'artiste One Page Design. Tout le contenu du site est sur une seule page pour une meilleure communication."
+technos:
+  - name: Wordpress
+    categ: back
 
 ---

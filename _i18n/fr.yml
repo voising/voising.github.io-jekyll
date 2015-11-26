@@ -1,0 +1,80 @@
+global:
+  html_title: 'Freelancer - Guillaume Voisin - Web Développeur Full Stack'
+  jobs: 'Ingénieur Ruby on Rails Full Stack'
+
+menu:
+  services: Services
+  portfolio: Portfolio
+  added_value: 'Valeur ajoutée'
+  about: 'À propos'
+  skills: 'Compétences'
+  contact: Contact
+
+section_heads:
+  services: Services
+  portfolio: Portfolio
+  added_value: 'À votre écoute'
+  about: 'À propos'
+  skills: 'Compétences'
+  contact: 'Contactez moi'
+
+services:
+  mvp_head: 'MVP'
+  mvp_body: 'Votre idée peut-elle connaître une traction phénoménale ? Offrez-vous un <strong>Produit Minimum Viable</strong> et testez le marché !'
+  eshop_head: 'E-COMMERCE'
+  eshop_body: "Vendez des produits virtuels (ou physiques) et <strong>gagnez de l'argent pendant que vous dormez</strong>."
+  one_page_head: 'ONE PAGE DESIGN'
+  one_page_body: 'Besoin d&#39;un <strong>site web simple et efficace</strong>. Optez pour le "One Page Design"'
+
+
+added_value:
+  expertise_head: 'EXPERTISE'
+  expertise_body: "<strong>Plus de 4 ans d'expérience</strong> dans le développement d'application Rails; 7 ans dans le développement web (intégration, SEO, front, back, architecture)."
+  communication_head: COMMUNICATION
+  communication_body: "Je vulgarise sans soucis toute notion trop technique."
+  shipping_head: 'RESPECT DES DÉLAIS'
+  shipping_body: "Je suis extrêmement productif."
+  love_head: 'PASSION'
+  love_body: "J'aime le travail bien fait."
+
+skills:
+  admin_sys: 'Administration de système UNIX'
+
+about:
+  part_1: "27 ans, originaire de Bretagne, je suis récemment devenu nomade digital ! Sinon en 3 mots je suis développeur, entrepreneur et magicien"
+  part_2: "On my spare time, I rehearse magic trick, lift weights, drink coffee. I'm although building a <strong>marketplace</strong> from scratch using Ember.js and Sinatra."
+  part_2: "Dans mon temps libre, je m'entraîne aux cartes, regarde des confs sur l'entreprenariat, l'univers startup. Mon projet du moment est la création d'une <strong>place de marché</strong> en Ember.js et Sinatra."
+
+contact:
+  intro_text: "Je travaille <strong>à distance</strong> et facture <strong>70€/h HT</strong>."
+  your_need: 'Votre besoin ...'
+  your_budget: 'Votre budget ...'
+  your_need_options:
+    mvp: 'Produit Mininum Viable'
+    eshop: 'E-commerce'
+    onepage: 'One page design'
+    devs: 'Développements Ruby / Rails / JS'
+    other: Autre
+  your_budget_options:
+    less1000: 'Moins de 1000€'
+    1000: 'Entre 1000€ et 2500€'
+    2500: 'Entre 2500€ et 5000€'
+    5000: 'Entre 5000€ et 20000€'
+    more20000: 'Plus de 20000€'
+  name: Nom
+  email: Email
+  message: Message
+  send: Envoyer
+  sent: Envoyé
+
+footer:
+  infos: INFOS
+  around_the_web: 'Ailleurs sur la toile'
+  location: Lieu
+
+posts:
+  close: 'Fermer'
+
+
+
+

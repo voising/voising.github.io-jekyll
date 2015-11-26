@@ -29,6 +29,26 @@ $(function() {
     }).on("click", ".cs-options li", function(){
         $(this).closest(".cs-select").addClass("done");
     });
+
+    $('form').on('submit', function(e){
+
+      e.preventDefault();
+      $form = $(this);
+      $.ajax({
+        url: this.action,
+        type: "POST",
+        data: $(this).serialize(),
+        dataType: "json"
+      }).done(function(data){
+        $form.find('input, textarea').val('');
+        $('.cs-placeholder').each(function(){
+          $(this).html($(this).next().next().find('option:first').html());
+        });
+        $button = $form.find('button');
+        $button.html($button.data('sent-text'));
+      });
+
+    });
 });
 
 // Highlight the top nav as scrolling occurs

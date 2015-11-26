@@ -1,0 +1,77 @@
+global:
+  html_title: 'Freelancer - Guillaume Voisin - Full Stack Web Developer'
+  jobs: 'Ruby on Rails Full Stack Engineer'
+
+menu:
+  services: Services
+  portfolio: Portfolio
+  added_value: 'Added value'
+  about: About
+  skills: Skills
+  contact: Contact
+
+section_heads:
+  services: Services
+  portfolio: Portfolio
+  added_value: 'At your service'
+  about: About
+  skills: Skills
+  contact: 'Contact me'
+
+services:
+  mvp_head: MVP
+  mvp_body: "You want to determine the traction of your idea. Let's launch a <strong>Minimum Viable Product</strong>!"
+  eshop_head: 'E-SHOP'
+  eshop_body: 'You want to sell products or virtuals products. Get an <strong>e-shop</strong> in less than a week.'
+  one_page_head: 'ONE PAGE DESIGN'
+  one_page_body: 'Get some presence on the web with a beautiful <strong>one page design</strong>.'
+
+
+added_value:
+  expertise_head: 'EXPERTISE'
+  expertise_body: '<strong>Over 4 years of experience</strong> in RoR web applications. 7 years in web development.'
+  communication_head: COMMUNICATION
+  communication_body: 'I make sure to be understood by non-technical folks'
+  shipping_head: 'SHIPPING IN TIME'
+  shipping_body: "I'm <strong>fast</strong> and <strong>efficient</strong>"
+  love_head: MADE WITH LOVE
+  love_body: "I'm devoted to satisfy your expectations and deliver a <strong>great product</strong>"
+
+skills:
+  admin_sys: 'Linux server system administration'
+
+about:
+  part_1: "I'm 27, grew up in Brittany (France). You should definitely go there ! Great landscape, great people, great crepes !<br>In short, I'm a digital nomad with an <strong>entrepreneur spirit</strong> loving electro music and card magic."
+  part_2: "On my spare time, I rehearse magic trick, lift weights, drink coffee. I'm although building a <strong>marketplace</strong> from scratch using Ember.js and Sinatra."
+
+contact:
+  intro_text: "I'm working <strong>remotely</strong> and charge <strong>70€/h excl. tax</strong>."
+  your_need: 'Your need ...'
+  your_budget: 'Your budget ...'
+  you_need_options:
+    mvp: 'Minimum Viable Product'
+    eshop: 'E-shop'
+    onepage: 'One page design'
+    devs: 'RoR / JS developments'
+    other: Other
+  your_budget_options:
+    less1000: 'Less than 1000€'
+    1000: 'Between 1000€ and 2500€'
+    2500: 'Between 2500€ and 5000€'
+    5000: 'Between 5000€ and 20000€'
+    more20000: 'More than 20000€'
+  name: Name
+  email: Email
+  message: Message
+  send: Send
+  sent: Sent
+
+footer:
+  infos: INFOS
+  around_the_web: 'AROUND THE WEB'
+  location: LOCATION
+
+posts:
+  close: 'Close'
+
+

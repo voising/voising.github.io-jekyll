@@ -4,11 +4,19 @@ modal-id: 2
 date: 2014-07-17
 img: vertcors.jpg
 alt: Vertcorps
+permalink: /vertcorps/
 project-date: October 2015
 client: Vertcorps
-url: www.vertcorps.boutique
+client_url: www.vertcorps.boutique
 budget: 3000€ excl. tax
 category: E-commerce
-description: E-commerce using Woo Commerce on Wordpress
+description:
+  en: 'E-shop for a brand new clothesline'
+  fr: "Mise en place d'un e-commerce pour une marque de vêtements bio. Widgets customisés. Formation au SEO."
+technos:
+  - name: Wordpress
+    categ: back
+  - name: Woo commerce
+    categ: back
 
 ---
