@@ -49,7 +49,7 @@ contact:
   intro_text: "I'm working <strong>remotely</strong> and charge <strong>70€/h excl. tax</strong>."
   your_need: 'Your need ...'
   your_budget: 'Your budget ...'
-  you_need_options:
+  your_need_options:
     mvp: 'Minimum Viable Product'
     eshop: 'E-shop'
     onepage: 'One page design'
@@ -66,6 +66,11 @@ contact:
   message: Message
   send: Send
   sent: Sent
+  thanks_text: "Your message was successfully sent. I'll reach back to you in the next 48h."
+
+validation:
+  email_syntax: 'Wrong email'
+  required: 'Please fill this field'
 
 footer:
   infos: INFOS

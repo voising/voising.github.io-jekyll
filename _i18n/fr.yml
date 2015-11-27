@@ -67,6 +67,12 @@ contact:
   message: Message
   send: Envoyer
   sent: Envoyé
+  thanks_text: "Votre message a bien été envoyé. Vous recevrez une réponse dans les 48h."
+
+validation:
+  email_syntax: 'E-mail non valide'
+  required: 'Merci de remplir ce champ'
+
 
 footer:
   infos: INFOS

@@ -36,14 +36,14 @@
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
 							<label>{% t contact.name %}</label>
-							<input type="text" name="name" class="form-control" placeholder="{% t contact.name %}" id="name" required data-validation-required-message="Please enter your name.">
+							<input type="text" name="name" class="form-control" placeholder="{% t contact.name %}" id="name" required data-validation-required-message="{% t validation.required %}">
 							<p class="help-block text-danger"></p>
 						</div>
 					</div>
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
 							<label>{% t contact.email %}</label>
-							<input type="email" name="_replyto" class="form-control" placeholder="{% t contact.email %}" id="email" required data-validation-required-message="Please enter your email address.">
+							<input type="email" name="_replyto" class="form-control" placeholder="{% t contact.email %}" id="email" required data-validation-required-message="{% t validation.required %}"  data-validation-validemail-message="{% t validation.email_syntax %}">
 							<p class="help-block text-danger"></p>
 						</div>
 					</div>
@@ -54,7 +54,7 @@
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
 							<label>{% t contact.message %}</label>
-							<textarea rows="5" name="message" class="form-control" placeholder="{% t contact.message %}" id="message" required data-validation-required-message="Please enter a message."></textarea>
+							<textarea rows="5" name="message" class="form-control" placeholder="{% t contact.message %}" id="message" required data-validation-required-message="{% t validation.required %}"></textarea>
 							<p class="help-block text-danger"></p>
 						</div>
 					</div>
@@ -62,7 +62,7 @@
 					<div id="success"></div>
 					<div class="row">
 						<div class="form-group col-xs-12">
-							<button type="submit" class="btn btn-success btn-lg pull-right js-send-form" data-sent-text="{% t contact.sent %}">{% t contact.send %}</button>
+							<button type="submit" class="btn btn-success btn-lg pull-right js-send-form" data-sent-text="{% t contact.thanks_text %}">{% t contact.send %}</button>
 						</div>
 					</div>
 				</form>
