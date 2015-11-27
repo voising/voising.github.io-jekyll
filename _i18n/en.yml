@@ -1,5 +1,6 @@
 global:
   html_title: 'Freelancer - Guillaume Voisin - Full Stack Web Developer'
+  meta_description: "Guillaume Voisin's portfolio. I make Minimum Viable Product (MVP) - E-commerce / E-shop - Corporate website - One page design."
   jobs: 'Ruby on Rails Full Stack Engineer'
 
 menu:

@@ -33,6 +33,10 @@
                 <div class="row">
                     <div class="col-lg-12">
                         Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}
+                        {% capture link1 %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
+                        <a href="{{ link1 }}" class="flag flag-gb ml7" alt="EN" ></a>
+                        {% capture link2 %}{{ site.baseurl_root }}fr{{ page.url  }}{% endcapture %}
+                        <a href="{{ link2 }}" class="flag flag-fr" alt="FR" ></a>
                     </div>
                 </div>
             </div>

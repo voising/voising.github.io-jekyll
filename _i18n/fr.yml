@@ -1,5 +1,6 @@
 global:
   html_title: 'Freelancer - Guillaume Voisin - Web Développeur Full Stack'
+  meta_description: "Portfolio de Guillaume Voisin, ingénieur Ruby on Rails. MVP - E-commerce - One Page Design - Site vitrine."
   jobs: 'Ingénieur Ruby on Rails Full Stack'
 
 menu:
