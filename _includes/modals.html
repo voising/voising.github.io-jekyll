@@ -19,7 +19,7 @@
                             </a>
                             <p>{{ post.description[site.lang] }}</p>
                             <p class="badges">
-                                {% for techno in post.techno %}
+                                {% for techno in post.technos %}
                                 <span class="badge {{ techno.categ }}">{{ techno.name }}</span>
                                 {% endfor %}
                             </p>

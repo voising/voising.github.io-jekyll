@@ -19,6 +19,10 @@ technos:
     categ: back
   - name: jQuery
     categ: front
+  - name: Twitter Bootstrap
+    categ: front
+  - name: Responsive
+    categ: front
   - name: Slim
     categ: front
   - name: LESS
